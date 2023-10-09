@@ -2,4 +2,6 @@
     <string name="app_name">AuthApp</string>
     <string name="email" />
     <string name="login" />
+    <string name="password">password\n</string>
+    <string name="Register">Register</string>
 </resources>

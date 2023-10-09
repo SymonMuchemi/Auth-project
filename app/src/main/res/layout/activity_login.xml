@@ -4,12 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:gravity="center"
+    android:padding="15dp"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".Login">
 
     <TextView
         android:text="@string/login"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -22,5 +27,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_toggle"
+            android:hint="@string/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
     
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        />
+
 </LinearLayout>
