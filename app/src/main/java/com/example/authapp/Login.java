@@ -29,11 +29,6 @@ public class Login extends AppCompatActivity {
             // Get the text from the TextInputEditTexts
             String emailText = Objects.requireNonNull(email.getText()).toString();
             String passwordText = Objects.requireNonNull(password.getText()).toString();
-
-            // create intent to go to the activity_registration activity
-            Intent intent = new Intent(Login.this, Registration.class);
-            //start intent
-            startActivity(intent);
         });
     }
 }

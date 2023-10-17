@@ -10,7 +10,7 @@
     tools:context=".Login">
 
     <TextView
-        android:text="@string/Register"
+        android:text="@string/login"
         android:textSize="50sp"
         android:textStyle="bold"
         android:gravity="center"
