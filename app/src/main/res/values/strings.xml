@@ -5,6 +5,11 @@
     <string name="Register">Register</string>
     <string name="confirm_password">\n</string>
     <string name="email_address">email address</string>
-    <string name="Login">Login</string>
+    <string name="Login">Log in</string>
     <string name="Email_address">email address</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="NoAccount">Not a member?</string>
+    <string name="welcomeMessage">Welcome</string>
+    <string name="logOut">Log Out</string>
+    <string name="successMsg">Your email address is:</string>
 </resources>

@@ -15,8 +15,12 @@
         android:theme="@style/Theme.Material3.Light"
         tools:targetApi="31">
         <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
             android:name=".Reg"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
